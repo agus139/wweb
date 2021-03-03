@@ -1,0 +1,45 @@
+header{
+    background-color: white;
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+    padding-top: 10px;
+    padding-bottom: 0px;
+
+    .logo{
+        font-family: $font1;
+        text-decoration: none;
+        color: $color1 ;
+        font-size: 50px;
+        padding-left: 40px;
+    }
+    
+    .logo:hover{
+        color: $color2;
+    }
+    
+    .imagen-inicio{
+        position: absolute;
+        top: -10px;
+        left: 165px;
+        z-index: -1;
+        opacity: 0.8;
+        height: 120px;
+    }
+
+    nav {
+        text-align: right;
+        .menu-nav{
+            position: relative;
+            bottom: 35px;
+            font-family: $font1 ;
+            text-decoration: none;
+            color: $color2;
+            padding-right: 20px;
+        }
+        
+        .menu-nav:hover{
+            color: $color1;
+        }    
+    }
+}

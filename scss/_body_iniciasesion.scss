@@ -1,0 +1,72 @@
+/* GENERAL */
+h2{
+    padding: 20px 40px;
+    font-family: $font2;
+    color: $color2;
+}
+
+p{
+    padding: 20px 40px;
+    font-family: $font2;
+    color: $color2;
+}
+
+fieldset{
+    position: relative;
+    top: 100px;
+    border: none;
+}
+
+legend{
+    font-size: 30px;
+    text-align: left;
+    margin: 50px
+}
+
+input{
+    font-family: $font2;
+    color: $color2;
+    border-radius: 25px;
+    border-color: $color1;
+    padding: 5px 40px;
+}
+
+
+
+/* FORM REGISTRO */
+.registro-container{
+    font-family: $font2;
+    color: $color2;
+}
+
+.registro-input{
+    margin: 10px;
+}
+
+.registro-boton{
+    background-color: $color1;
+    color: $color3;
+    text-decoration: none;
+    border-radius: 25px;
+    margin-left: 50px;
+}
+
+.registro-boton:hover{
+    background-color: $color3;
+    color: $color1;
+} 
+
+
+
+/* FORM INICIA SESION */
+
+.sesion{
+font-family: 'Libre Franklin', sans-serif;
+color: #222222;
+}
+
+/* FORM GMAIL */
+
+.foto-gmail{
+    margin-left: 50px;
+}

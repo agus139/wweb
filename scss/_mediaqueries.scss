@@ -1,0 +1,80 @@
+/* Mobile */
+@media only screen and (max-width:400px) {
+
+    nav{
+        width: 90%;
+        display: flex;
+        flex-direction: column;
+        justify-content: right;
+    }
+    
+    .ciudad{
+        display: none;
+    }
+    
+    .form-busqueda-container{
+        margin-top: 200px;
+    } 
+    
+    .busqueda-general-container{
+        display: flex;
+        justify-content: right;
+        flex-wrap: wrap;
+    }
+    
+    .footer{
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        width: 800px;
+    }
+    
+    .lista1{
+        order: -1;
+    }
+        
+    .redes-footer{
+        order: 1;
+    }
+    
+    }
+    
+    
+    
+    
+    /* Tablet */
+    @media only screen and (min-width:401px) and (max-width:960px){
+    nav{
+        width: 90%;
+        display: flex;
+        flex-direction: column;
+        justify-content: right;
+    }
+    
+    .ciudad{
+        display: none;
+    }
+    
+    .form-busqueda-container{
+        margin-top: 400px;
+        justify-content: center;
+    } 
+    
+    
+    
+    .footer{
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        width: 1000px;
+    }
+    
+    .lista1{
+        order: -1;
+    }
+    
+    .redes-footer{
+        order: 1;
+    }
+    
+    /* FIN MEDIA QUERIES */}

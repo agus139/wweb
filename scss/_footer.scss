@@ -1,0 +1,32 @@
+.footer{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-family: $font2;
+    color: $color2;
+    margin-top: 150px;
+    margin-bottom: 20px;
+}
+
+.lista-footer{
+    list-style: none;
+    padding-top: 10px;
+    flex: 1;
+}
+
+.redes{
+    margin-left: 30px;
+}
+
+.footer-registro{
+    margin-top: 300px;
+}
+
+.footer-contacto{
+    margin-top: 100px;
+}
+
+.footer-menu{
+    margin-top: 525px;
+    margin-bottom: 0px ;
+}

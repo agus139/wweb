@@ -1,0 +1,105 @@
+/* FORM BUSQUEDA PARTICULAR */
+.match{
+    font-family: $font2;
+    font-size: 70px;
+    color: $color2;
+    text-align: center;
+    padding-top: 200px;
+    position: relative;
+    top: 80px;
+    transition: all 2s ease;
+}
+
+
+
+.imagen-busqueda{
+    position: absolute;
+    left: 500px;
+    top: 100px;
+    height: 500px;
+    padding-top: 40px;
+    z-index: -1;
+    opacity: 0.7;
+}
+
+/* COLOR GRIS - #484848*/
+
+.h2-form{
+    font-family: $font2;
+    color: $color2;
+    font-size: 30px;
+}
+
+.ciudad{
+    position: relative;
+    top: 400px;
+    background-image: url("../imagenes/ciudad.png");
+    filter: blur(1.5px);
+    background-size: 1100px 1000px  ;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 500px;
+    /*<a href="https://storyset.com/business">Illustration by Freepik Storyset</a>*/
+}
+
+.form-busqueda{
+    position: relative;
+    bottom: 70px;
+    left: 400px;
+    text-align: center;
+    padding: 40px;
+    width: 500px;
+    height: 300px;
+    border-radius: 25px;
+}
+
+.input-busqueda{
+    font-family: $font2;
+    color: $color2;
+    border-radius: 25px;
+    border-color: $color1;
+    padding: 5px 40px;
+}
+
+
+
+.boton-busqueda{
+    padding: 10px 100px;
+    position: relative;
+    text-align: center;
+    top: 50px;
+    background-color: $color1;
+    color: $color3;
+    text-decoration: none;
+    border-radius: 25px;
+}
+
+.boton-busqueda:hover{
+    background-color: $color3;
+    color: $color1;
+}
+
+
+
+
+
+
+/* FORM BUSQUEDA GENERAL */
+.h2-busqueda{
+    text-align: left;
+    margin: 200px 0px 30px 0px;
+    font-size: 30px;
+}
+
+.h3-busqueda{
+    font-family: $font2;
+    color: $color2;
+    font-size: 20px;
+    width: 100%;
+}
+
+.img-bgeneral{
+    max-height: 250px;
+    margin-left: 30px;
+}
+

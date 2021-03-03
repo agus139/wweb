@@ -1,0 +1,89 @@
+/* CAROUSEL*/
+
+.img-carousel{
+    margin-top: 100px;
+margin-left: 550px;
+width: 25%;
+}
+
+.carousel-container{
+align-items: center;
+}
+
+.boton-carousel{
+margin-top: 100px;
+}
+
+/* FORM CONTACTO*/
+.mapa-form{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-left: 50px;
+}
+
+.fieldset-contacto{
+    position: relative;
+    border: none;
+    top: 0px;
+}
+
+.consulta{
+    font-family: $font2;
+    color: hsl(0, 0%, 13%);
+    top: 460px;
+    width: 30%;
+}
+
+.consulta2{
+    width: 50%;
+}
+
+.form-consulta{
+    font-family: $font2;
+    color: $color2;
+    font-size: 25px;
+    margin: 140px 0px 20px 20px;
+
+}
+
+.registro-input1{
+    padding: 10px;
+    margin: 10px;
+}
+
+.registro-boton1{
+    background-color: $color1;
+    color: $color3;
+    text-decoration: none;
+    border-radius: 25px;
+    margin-left: 100px;
+}
+
+.registro-boton1:hover{
+    background-color: $color3;
+    color: $color1;
+} 
+
+
+/* MAPA*/
+.gmapa{
+    padding-left: 40px;
+    width: 50%;
+}
+
+.h2-contacto{
+    top: 490px;
+}
+
+.p-mapa{
+    padding: 0px 40px;
+    font-family: $font2;
+    color: $color2;
+}
+
+.mapa{
+    top: 620px;
+    margin: 0px 100px 0px 40px;
+
+}

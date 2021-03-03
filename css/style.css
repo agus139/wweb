@@ -1,0 +1,332 @@
+header {
+  background-color: white;
+  position: fixed;
+  width: 100%;
+  z-index: 1;
+  padding-top: 10px;
+  padding-bottom: 0px; }
+  header .logo {
+    font-family: "Montserrat", sans-serif;
+    text-decoration: none;
+    color: #ff385c;
+    font-size: 50px;
+    padding-left: 40px; }
+  header .logo:hover {
+    color: #222222; }
+  header .imagen-inicio {
+    position: absolute;
+    top: -10px;
+    left: 165px;
+    z-index: -1;
+    opacity: 0.8;
+    height: 120px; }
+  header nav {
+    text-align: right; }
+    header nav .menu-nav {
+      position: relative;
+      bottom: 35px;
+      font-family: "Montserrat", sans-serif;
+      text-decoration: none;
+      color: #222222;
+      padding-right: 20px; }
+    header nav .menu-nav:hover {
+      color: #ff385c; }
+
+.footer {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  font-family: "Libre Franklin", sans-serif;
+  color: #222222;
+  margin-top: 150px;
+  margin-bottom: 20px; }
+
+.lista-footer {
+  list-style: none;
+  padding-top: 10px;
+  flex: 1; }
+
+.redes {
+  margin-left: 30px; }
+
+.footer-registro {
+  margin-top: 300px; }
+
+.footer-contacto {
+  margin-top: 100px; }
+
+.footer-menu {
+  margin-top: 525px;
+  margin-bottom: 0px; }
+
+/* FORM BUSQUEDA PARTICULAR */
+.match {
+  font-family: "Libre Franklin", sans-serif;
+  font-size: 70px;
+  color: #222222;
+  text-align: center;
+  padding-top: 200px;
+  position: relative;
+  top: 80px;
+  transition: all 2s ease; }
+
+.imagen-busqueda {
+  position: absolute;
+  left: 500px;
+  top: 100px;
+  height: 500px;
+  padding-top: 40px;
+  z-index: -1;
+  opacity: 0.7; }
+
+/* COLOR GRIS - #484848*/
+.h2-form {
+  font-family: "Libre Franklin", sans-serif;
+  color: #222222;
+  font-size: 30px; }
+
+.ciudad {
+  position: relative;
+  top: 400px;
+  background-image: url("../imagenes/ciudad.png");
+  filter: blur(1.5px);
+  background-size: 1100px 1000px;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 500px;
+  /*<a href="https://storyset.com/business">Illustration by Freepik Storyset</a>*/ }
+
+.form-busqueda {
+  position: relative;
+  bottom: 70px;
+  left: 400px;
+  text-align: center;
+  padding: 40px;
+  width: 500px;
+  height: 300px;
+  border-radius: 25px; }
+
+.input-busqueda {
+  font-family: "Libre Franklin", sans-serif;
+  color: #222222;
+  border-radius: 25px;
+  border-color: #ff385c;
+  padding: 5px 40px; }
+
+.boton-busqueda {
+  padding: 10px 100px;
+  position: relative;
+  text-align: center;
+  top: 50px;
+  background-color: #ff385c;
+  color: white;
+  text-decoration: none;
+  border-radius: 25px; }
+
+.boton-busqueda:hover {
+  background-color: white;
+  color: #ff385c; }
+
+/* FORM BUSQUEDA GENERAL */
+.h2-busqueda {
+  text-align: left;
+  margin: 200px 0px 30px 0px;
+  font-size: 30px; }
+
+.h3-busqueda {
+  font-family: "Libre Franklin", sans-serif;
+  color: #222222;
+  font-size: 20px;
+  width: 100%; }
+
+.img-bgeneral {
+  max-height: 250px;
+  margin-left: 30px; }
+
+/* GENERAL */
+h2 {
+  padding: 20px 40px;
+  font-family: "Libre Franklin", sans-serif;
+  color: #222222; }
+
+p {
+  padding: 20px 40px;
+  font-family: "Libre Franklin", sans-serif;
+  color: #222222; }
+
+fieldset {
+  position: relative;
+  top: 100px;
+  border: none; }
+
+legend {
+  font-size: 30px;
+  text-align: left;
+  margin: 50px; }
+
+input {
+  font-family: "Libre Franklin", sans-serif;
+  color: #222222;
+  border-radius: 25px;
+  border-color: #ff385c;
+  padding: 5px 40px; }
+
+/* FORM REGISTRO */
+.registro-container {
+  font-family: "Libre Franklin", sans-serif;
+  color: #222222; }
+
+.registro-input {
+  margin: 10px; }
+
+.registro-boton {
+  background-color: #ff385c;
+  color: white;
+  text-decoration: none;
+  border-radius: 25px;
+  margin-left: 50px; }
+
+.registro-boton:hover {
+  background-color: white;
+  color: #ff385c; }
+
+/* FORM INICIA SESION */
+.sesion {
+  font-family: 'Libre Franklin', sans-serif;
+  color: #222222; }
+
+/* FORM GMAIL */
+.foto-gmail {
+  margin-left: 50px; }
+
+/* CAROUSEL*/
+.img-carousel {
+  margin-top: 100px;
+  margin-left: 550px;
+  width: 25%; }
+
+.carousel-container {
+  align-items: center; }
+
+.boton-carousel {
+  margin-top: 100px; }
+
+/* FORM CONTACTO*/
+.mapa-form {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-left: 50px; }
+
+.fieldset-contacto {
+  position: relative;
+  border: none;
+  top: 0px; }
+
+.consulta {
+  font-family: "Libre Franklin", sans-serif;
+  color: #212121;
+  top: 460px;
+  width: 30%; }
+
+.consulta2 {
+  width: 50%; }
+
+.form-consulta {
+  font-family: "Libre Franklin", sans-serif;
+  color: #222222;
+  font-size: 25px;
+  margin: 140px 0px 20px 20px; }
+
+.registro-input1 {
+  padding: 10px;
+  margin: 10px; }
+
+.registro-boton1 {
+  background-color: #ff385c;
+  color: white;
+  text-decoration: none;
+  border-radius: 25px;
+  margin-left: 100px; }
+
+.registro-boton1:hover {
+  background-color: white;
+  color: #ff385c; }
+
+/* MAPA*/
+.gmapa {
+  padding-left: 40px;
+  width: 50%; }
+
+.h2-contacto {
+  top: 490px; }
+
+.p-mapa {
+  padding: 0px 40px;
+  font-family: "Libre Franklin", sans-serif;
+  color: #222222; }
+
+.mapa {
+  top: 620px;
+  margin: 0px 100px 0px 40px; }
+
+/* Mobile */
+@media only screen and (max-width: 400px) {
+  nav {
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: right; }
+
+  .ciudad {
+    display: none; }
+
+  .form-busqueda-container {
+    margin-top: 200px; }
+
+  .busqueda-general-container {
+    display: flex;
+    justify-content: right;
+    flex-wrap: wrap; }
+
+  .footer {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    width: 800px; }
+
+  .lista1 {
+    order: -1; }
+
+  .redes-footer {
+    order: 1; } }
+/* Tablet */
+@media only screen and (min-width: 401px) and (max-width: 960px) {
+  nav {
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: right; }
+
+  .ciudad {
+    display: none; }
+
+  .form-busqueda-container {
+    margin-top: 400px;
+    justify-content: center; }
+
+  .footer {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    width: 1000px; }
+
+  .lista1 {
+    order: -1; }
+
+  .redes-footer {
+    order: 1; }
+
+  /* FIN MEDIA QUERIES */ }
+
+/*# sourceMappingURL=style.css.map */
